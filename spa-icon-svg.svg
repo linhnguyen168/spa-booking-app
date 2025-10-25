@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Square Background -->
+  <rect width="512" height="512" rx="80" fill="url(#bgGradient)"/>
+  
+  <!-- Flower Icon (Spa Symbol) -->
+  <g transform="translate(256, 200)">
+    <!-- Center Circle -->
+    <circle cx="0" cy="0" r="30" fill="#fef3c7"/>
+    
+    <!-- Petals -->
+    <ellipse cx="0" cy="-50" rx="35" ry="50" fill="#fce7f3" opacity="0.9"/>
+    <ellipse cx="0" cy="-50" rx="35" ry="50" fill="#fce7f3" opacity="0.9" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-50" rx="35" ry="50" fill="#fce7f3" opacity="0.9" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-50" rx="35" ry="50" fill="#fce7f3" opacity="0.9" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-50" rx="35" ry="50" fill="#fce7f3" opacity="0.9" transform="rotate(288)"/>
+  </g>
+  
+  <!-- Text "SPA" -->
+  <text x="256" y="360" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="white">
+    SPA
+  </text>
+  
+  <!-- Decorative Dots -->
+  <circle cx="120" cy="420" r="8" fill="white" opacity="0.6"/>
+  <circle cx="392" cy="420" r="8" fill="white" opacity="0.6"/>
+  <circle cx="256" cy="440" r="6" fill="white" opacity="0.5"/>
+</svg>
