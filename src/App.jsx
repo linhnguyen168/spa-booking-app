@@ -10,9 +10,9 @@ const SERVICES = [
 ];
 
 const STAFF = [
-  { id: 1, name: 'Chị Lan', specialty: 'Facial' },
-  { id: 2, name: 'Chị Hương', specialty: 'Massage' },
-  { id: 3, name: 'Chị Mai', specialty: 'Điều trị' },
+  { id: 1, name: 'Miss. Nhật', specialty: 'Facial' },
+  { id: 2, name: 'Miss. Hồng', specialty: 'Massage' },
+  { id: 3, name: 'Miss. Nhật', specialty: 'Điều trị' },
 ];
 
 const TIME_SLOTS = [
